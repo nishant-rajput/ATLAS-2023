@@ -7,7 +7,7 @@ public class AmpletApplication implements CommandLineRunner {
 	public static final Logger Logger= LoggerFactory.getLogger(AmpletApplication.class);
 
 	public static void main(String[] args) {
-		Logger.info("its a CI pipeline job");
+		Logger.info("its a CI pipeline job-new");
 		SpringApplication.run(AmpletApplication.class, args);
 	}
 
