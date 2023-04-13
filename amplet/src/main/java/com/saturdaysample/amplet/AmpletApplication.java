@@ -2,7 +2,9 @@ package com.saturdaysample.amplet;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.slf4j.*;
+@SpringBootApplication
 public class AmpletApplication implements CommandLineRunner {
 	public static final Logger Logger= LoggerFactory.getLogger(AmpletApplication.class);
 
